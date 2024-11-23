@@ -11,7 +11,7 @@ const sf::Color DARK_TEAL(0x02, 0x2B, 0x3A);   // #022B3A
 const sf::Color CRIMSON_RED(0xB6, 0x22, 0x03); // #B62203
 
 // Grid constants
-const int GRID_SIZE = 10;
-const int CELL_SIZE = 40;
+const int GRID_SIZE = 15;
+const int CELL_SIZE = 20;
 
 #endif // CONSTANTS_HPP

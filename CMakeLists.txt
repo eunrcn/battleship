@@ -4,7 +4,6 @@ project(Battleship)
 
 set(CMAKE_CXX_STANDARD 14)
 
-# SFML package (make sure SFML is properly installed)
 find_package(SFML 2.5 REQUIRED graphics window system)
 
 # Add the source files
@@ -12,6 +11,7 @@ add_executable(Battleship
     src/main.cpp
     src/Grid.cpp
     src/Ship.cpp
+    src/Constants.hpp
 )
 
 # Link SFML libraries

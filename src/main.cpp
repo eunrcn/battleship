@@ -4,10 +4,10 @@
 #include <SFML/Graphics.hpp>
 
 int main() {
-  sf::RenderWindow window(sf::VideoMode(800, 600), "Battleship");
+  sf::RenderWindow window(sf::VideoMode(1000, 800), "Battleship");
 
   Grid grid(0.f, 0.f);
-  Ship ship(3, 2);
+  Ship ship(1, 1);
 
   while (window.isOpen()) {
     sf::Event event;
